@@ -7,10 +7,12 @@ public class BuildManagerScript : MonoBehaviour
     public GameObject[] Towers;
     public GameObject[] buildGhost;
     public int buildIndex;
-    Vector2 mouseFollow;
+    Ray mouseRay;
     public GameObject buildingSpawner;
     public GameObject currentBuilding;
     public Material matCol;
+    [SerializeField] private new Camera camera;
+    [SerializeField] private LayerMask mask;
 
     [Header("Money related stuff")]
     public static int currentCash;
@@ -19,24 +21,36 @@ public class BuildManagerScript : MonoBehaviour
 
     [Header("Placing Conditions")]
     bool obstructed;
-    bool placing;
+    public static bool placing;
 
+    public void Awake()
+    {
+        currentCash = 100;
+        placing = false;
+        obstructed = false;
+    }
 
     void Start()
     {
-        placing = false;
+        baseBuildingCost = new int[] { 5, 25 };
     }
 
     void Update()
     {
         //spawning object follows mouse
-        mouseFollow = new Vector3(Input.mousePosition.x, 1, Input.mousePosition.z);
-        buildingSpawner.transform.position = mouseFollow;
+        mouseRay = camera.ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(mouseRay, out RaycastHit hit, float.MaxValue, mask))
+        {
+            buildingSpawner.transform.position = new Vector3(hit.point.x, hit.point.y + 1, hit.point.z);
+        }
 
         if(placing == true)
         {
-
-            currentBuilding.transform.position = mouseFollow;
+            if (Physics.Raycast(mouseRay, out hit, float.MaxValue, mask))
+            {
+                currentBuilding.transform.position = new Vector3(hit.point.x, hit.point.y + 1, hit.point.z);
+            }
             if(obstructed == true)
             {
                 //turn red
@@ -52,25 +66,40 @@ public class BuildManagerScript : MonoBehaviour
             Destroy(currentBuilding);
             placing = false;
         }
+
+        if(Input.GetMouseButton(0) && placing == true && obstructed == false)
+        {
+            Build(buildIndex);
+            Destroy(currentBuilding);
+        }
     }
 
     public void BuildGhost(int buildIndex)
     {
-        currentBuilding =  Instantiate(buildGhost[buildIndex], buildingSpawner.transform);
-        matCol = currentBuilding.GetComponent<Material>();
+        currentBuilding = Instantiate(buildGhost[buildIndex], buildingSpawner.transform);
+
         //set alpha of material to "ghost"
+        matCol = currentBuilding.GetComponent<Material>();
         placing = true;
     }
 
     public void Build(int buildIndex)
     {
         if(baseBuildingCost[buildIndex] <= currentCash)
-        Instantiate(Towers[buildIndex], buildGhost[buildIndex].transform.position, Quaternion.identity);
-        
+        {
+            Instantiate(Towers[buildIndex], buildingSpawner.transform.position, Quaternion.identity);
+            placing = false;
+            currentCash = currentCash - baseBuildingCost[buildIndex];
+        }
+        else
+        {
+            //you dont have enough money to buy this
+        }    
     }
 
-    public void BuildSelect(int buildSelectIndex)
+    public int BuildSelect(int buildSelectIndex)
     {
         buildIndex = buildSelectIndex;
+        return buildIndex;
     }
 }
