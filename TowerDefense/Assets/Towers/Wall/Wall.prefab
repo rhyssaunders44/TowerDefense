@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4381380696259460909}
   m_Layer: 6
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,9 +110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentWall: {fileID: 5961376562220110447}
   ChildWall: {fileID: 3497157907168777220, guid: 3147ee3bd524c0747bec7d2e65adc6a3, type: 3}
-  maxDistance: 7
-  buildDirection: []
-  rayCount: 8
-  mask:
-    serializedVersion: 2
-    m_Bits: 0
+  NewWall: {fileID: 0}
+  maxDistance: 2
+  direction: []

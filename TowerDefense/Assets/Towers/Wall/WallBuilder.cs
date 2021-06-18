@@ -6,23 +6,25 @@ public class WallBuilder : MonoBehaviour
 {
     [SerializeField] private GameObject ParentWall;
     [SerializeField] private GameObject ChildWall;
-    [SerializeField] private float maxDistance = 7;
-    [SerializeField] private Vector3 buildDirection;
-    [SerializeField] private int rayCount = 8;
-    [SerializeField] private LayerMask mask;
-    [SerializeField] private Ray guideRay;
+    [SerializeField] private GameObject NewWall;
+    [SerializeField] private float maxDistance = 2;
+    [SerializeField] private RaycastHit hit;
+    [SerializeField] private Vector3[] direction;
+
     void Start()
     {
-        for (int i = 0; i < 8; i++)
+        Vector3 buildDist;
+        Vector3 baseRot = new Vector3(90, 0, 0);
+        direction = new Vector3[] { transform.forward, transform.right, -transform.forward, -transform.right };
+
+        for (int i = 0; i < direction.Length; i++)
         {
-            buildDirection = new Vector3(0, 0, 0);
-            guideRay = new Ray(ParentWall.transform.position, buildDirection);
-
-            if(Physics.Raycast(guideRay, out RaycastHit hit, maxDistance))
+            if (Physics.Raycast(ParentWall.transform.position, direction[i], out hit, maxDistance))
             {
-                Vector3 buildPoint = guideRay.GetPoint((ParentWall.transform.position.x + hit.point.x) / 2);
-
-                Instantiate(ChildWall, buildPoint, Quaternion.LookRotation(hit.point));
+                buildDist = ((hit.point - ParentWall.transform.position) / 2) + ParentWall.transform.position;
+                NewWall = Instantiate(ChildWall, buildDist, Quaternion.identity);
+                NewWall.transform.LookAt(hit.point);
+                NewWall.transform.Rotate(baseRot, Space.Self);
             }
         }
     }

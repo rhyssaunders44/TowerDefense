@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class BuildManagerScript : MonoBehaviour
 {
     public GameObject[] Towers;
     public GameObject[] buildGhost;
     public int buildIndex;
-    Ray mouseRay;
+    [SerializeField] private Ray mouseRay;
     public GameObject buildingSpawner;
     public GameObject currentBuilding;
     public Material matCol;
@@ -16,12 +17,15 @@ public class BuildManagerScript : MonoBehaviour
 
     [Header("Money related stuff")]
     public static int currentCash;
-    public int[] baseBuildingCost;
+    [SerializeField] private int[] baseBuildingCost;
 
 
     [Header("Placing Conditions")]
-    bool obstructed;
+    private bool obstructed;
     public static bool placing;
+
+    [Header("Tilemap")]
+    [SerializeField] private Tilemap buildGrid;
 
     public void Awake()
     {
@@ -42,26 +46,22 @@ public class BuildManagerScript : MonoBehaviour
 
         if (Physics.Raycast(mouseRay, out RaycastHit hit, float.MaxValue, mask))
         {
-            buildingSpawner.transform.position = new Vector3(hit.point.x, hit.point.y + 1, hit.point.z);
+            // to fixed to tilemap
+            buildingSpawner.transform.position = new Vector3(Mathf.Round(hit.point.x), hit.point.y + 1, Mathf.Round(hit.point.z));
         }
 
         if(placing == true)
         {
             if (Physics.Raycast(mouseRay, out hit, float.MaxValue, mask))
             {
-                currentBuilding.transform.position = new Vector3(hit.point.x, hit.point.y + 1, hit.point.z);
+                currentBuilding.transform.position = new Vector3(Mathf.Round(hit.point.x), hit.point.y + 1, Mathf.Round(hit.point.z));
             }
-            if(obstructed == true)
-            {
-                //turn red
-            }
-            else
-            {
-                //turn Green
-            }
-        }
 
-        if(Input.GetKeyDown(KeyCode.Escape) && placing == true)
+            HitCheck(hit);
+        }
+        else
+
+        if (Input.GetKeyDown(KeyCode.Escape) && placing == true)
         {
             Destroy(currentBuilding);
             placing = false;
@@ -74,13 +74,30 @@ public class BuildManagerScript : MonoBehaviour
         }
     }
 
+    private void HitCheck(RaycastHit hit)
+    {
+        if (buildIndex == 0 && (hit.collider.tag == "Wall" || hit.collider.tag == "Building"))
+        {
+            obstructed = true;
+        }
+        else
+        {
+            obstructed = false;
+        }
+    }
+
     public void BuildGhost(int buildIndex)
     {
-        currentBuilding = Instantiate(buildGhost[buildIndex], buildingSpawner.transform);
+        if (placing == false) 
+        {
+            currentBuilding = Instantiate(buildGhost[buildIndex], buildingSpawner.transform);
 
-        //set alpha of material to "ghost"
-        matCol = currentBuilding.GetComponent<Material>();
-        placing = true;
+            //set alpha of material to "ghost"
+            //draw a range based on the tower's range
+            matCol = currentBuilding.GetComponent<Material>();
+            placing = true;
+        }
+
     }
 
     public void Build(int buildIndex)

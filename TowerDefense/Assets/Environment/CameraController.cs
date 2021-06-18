@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Camera mainCamera;
+    [SerializeField] private int magnification;
+    [SerializeField] private int maxZoom = 4;
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.W) && magnification <= maxZoom)
+        {
+            magnification++;
+        }
     }
 }
