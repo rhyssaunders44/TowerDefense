@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10ecc919f2cded1449a9577641ba3ecc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ghostRenderer: {fileID: 4939737271426502764, guid: d99df599cd3f02542b40fb5d67ad05c1, type: 3}
+  - Ghost: {fileID: 91058751508852199, guid: d99df599cd3f02542b40fb5d67ad05c1, type: 3}
+  - Bubble: {fileID: 2505996968593948664, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

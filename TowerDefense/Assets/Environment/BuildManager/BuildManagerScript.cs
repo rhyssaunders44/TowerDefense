@@ -7,13 +7,21 @@ public class BuildManagerScript : MonoBehaviour
 {
     public GameObject[] Towers;
     public GameObject[] buildGhost;
-    public int buildIndex;
+
+    public static int buildIndex;
     [SerializeField] private Ray mouseRay;
     public GameObject buildingSpawner;
-    public GameObject currentBuilding;
-    public Material matCol;
+    public static GameObject TempBuilding;
+    [SerializeField] private GameObject RealisedBuilding;
+
     [SerializeField] private new Camera camera;
     [SerializeField] private LayerMask mask;
+
+    [Header("Tower variables")]
+    public static int power;
+    public static float heat;
+    public static float heatMax;
+
 
     [Header("Money related stuff")]
     public static int currentCash;
@@ -21,102 +29,97 @@ public class BuildManagerScript : MonoBehaviour
 
 
     [Header("Placing Conditions")]
-    private bool obstructed;
-    public static bool placing;
+    public static bool obstructed;
+    [SerializeField] private bool placing;
+    public static bool finalBuilding;
+    public static int passBuildIndex;
 
-    [Header("Tilemap")]
-    [SerializeField] private Tilemap buildGrid;
 
     public void Awake()
     {
-        currentCash = 100;
+        currentCash = 150;
         placing = false;
         obstructed = false;
     }
 
     void Start()
     {
-        baseBuildingCost = new int[] { 5, 25 };
+        heatMax = 10;
+        finalBuilding = false;
+        baseBuildingCost = new int[] { 5, 25, 20 };
     }
 
     void Update()
     {
-        //spawning object follows mouse
         mouseRay = camera.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(mouseRay, out RaycastHit hit, float.MaxValue, mask))
         {
-            // to fixed to tilemap
-            buildingSpawner.transform.position = new Vector3(Mathf.Round(hit.point.x), hit.point.y + 1, Mathf.Round(hit.point.z));
-        }
+            buildingSpawner.transform.position = new Vector3(Mathf.Round(hit.point.x / 2) * 2, hit.point.y + 0.5f, Mathf.Round(hit.point.z / 2) * 2);
 
-        if(placing == true)
-        {
-            if (Physics.Raycast(mouseRay, out hit, float.MaxValue, mask))
+            if(placing)
             {
-                currentBuilding.transform.position = new Vector3(Mathf.Round(hit.point.x), hit.point.y + 1, Mathf.Round(hit.point.z));
+                TempBuilding.transform.position = buildingSpawner.transform.position;
+
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+                    placing = false;
+                    Destroy(TempBuilding);
+                }
             }
-
-            HitCheck(hit);
-        }
-        else
-
-        if (Input.GetKeyDown(KeyCode.Escape) && placing == true)
-        {
-            Destroy(currentBuilding);
-            placing = false;
         }
 
-        if(Input.GetMouseButton(0) && placing == true && obstructed == false)
+        if (Input.GetMouseButton(0) && placing && !obstructed)
         {
-            Build(buildIndex);
-            Destroy(currentBuilding);
+             Build(passBuildIndex);
+             Destroy(TempBuilding);
         }
-    }
 
-    private void HitCheck(RaycastHit hit)
-    {
-        if (buildIndex == 0 && (hit.collider.tag == "Wall" || hit.collider.tag == "Building"))
-        {
-            obstructed = true;
-        }
-        else
-        {
-            obstructed = false;
-        }
+        if(heat > 0)
+            heat = heat - 0.01f;
     }
 
     public void BuildGhost(int buildIndex)
     {
-        if (placing == false) 
-        {
-            currentBuilding = Instantiate(buildGhost[buildIndex], buildingSpawner.transform);
+        finalBuilding = false;
+        passBuildIndex = buildIndex;
 
-            //set alpha of material to "ghost"
-            //draw a range based on the tower's range
-            matCol = currentBuilding.GetComponent<Material>();
+        if (baseBuildingCost[buildIndex] <= currentCash)
+            UiManager.outOfMoney = false;
+        else
+            UiManager.outOfMoney = true;
+
+        if (!placing) 
+        {
+            if(UiManager.outOfMoney)
+            {
+                UiManager.changing = true;
+            }
+
+            TempBuilding = Instantiate(buildGhost[passBuildIndex], buildingSpawner.transform);
             placing = true;
         }
-
     }
 
     public void Build(int buildIndex)
     {
-        if(baseBuildingCost[buildIndex] <= currentCash)
+        finalBuilding = true;
+        passBuildIndex = buildIndex;
+        UiManager.changing = true;
+
+        if (baseBuildingCost[passBuildIndex] <= currentCash)
         {
-            Instantiate(Towers[buildIndex], buildingSpawner.transform.position, Quaternion.identity);
             placing = false;
-            currentCash = currentCash - baseBuildingCost[buildIndex];
+
+            RealisedBuilding = Instantiate(Towers[buildIndex], buildingSpawner.transform.position, Quaternion.identity);
+            currentCash = currentCash - baseBuildingCost[passBuildIndex];
+
+            Ballistic_tower_basic.needsPowerCheck = true;
+            WallBuilder.needsWallpower = true;
         }
         else
         {
-            //you dont have enough money to buy this
+            placing = false;
         }    
-    }
-
-    public int BuildSelect(int buildSelectIndex)
-    {
-        buildIndex = buildSelectIndex;
-        return buildIndex;
     }
 }

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e35da26bfdc6bac4caca1d76d79ad3f3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - objective: {fileID: 4988864754455038349, guid: ae22031616fe0334cb461f33d57f0f1a, type: 3}
+  - mookCollider: {fileID: 4097752032904468208, guid: 270f67f669ec1de4591f83bfc4495e4a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

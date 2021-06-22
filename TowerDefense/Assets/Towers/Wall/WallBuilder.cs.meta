@@ -3,7 +3,11 @@ guid: 4f5b6631cc74099489060ec1392bb764
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ParentWall: {instanceID: 0}
+  - ChildWall: {instanceID: 0}
+  - NewWall: {instanceID: 0}
+  - buildAura: {fileID: 5961376562220110447, guid: 5d74201851544c4499bc0c2d357a9324, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -10,6 +10,11 @@ public class WallBuilder : MonoBehaviour
     [SerializeField] private float maxDistance = 2;
     [SerializeField] private RaycastHit hit;
     [SerializeField] private Vector3[] direction;
+    [SerializeField] private GameObject buildAura;
+    [SerializeField] private LayerMask mask;
+    [SerializeField] private LayerMask powerMask;
+    [SerializeField] private GameObject powerBox;
+    public static bool needsWallpower;
 
     void Start()
     {
@@ -19,13 +24,41 @@ public class WallBuilder : MonoBehaviour
 
         for (int i = 0; i < direction.Length; i++)
         {
-            if (Physics.Raycast(ParentWall.transform.position, direction[i], out hit, maxDistance))
+            if (Physics.Raycast(transform.position, direction[i], out hit, maxDistance, mask))
             {
-                buildDist = ((hit.point - ParentWall.transform.position) / 2) + ParentWall.transform.position;
-                NewWall = Instantiate(ChildWall, buildDist, Quaternion.identity);
+                buildDist = ParentWall.transform.position + direction[i];
+                NewWall = Instantiate(ChildWall, buildDist , Quaternion.identity, ParentWall.transform);
                 NewWall.transform.LookAt(hit.point);
                 NewWall.transform.Rotate(baseRot, Space.Self);
             }
+
+        }
+
+        needsWallpower = true;
+        WallPowerCheck();
+    }
+
+    public void Update()
+    {
+        if (needsWallpower)
+        {
+            WallPowerCheck();
         }
     }
+
+    private void WallPowerCheck()
+    {
+        direction = new Vector3[] { transform.forward, transform.right, -transform.forward, -transform.right };
+
+        for (int i = 0; i < direction.Length; i++)
+        {
+            if (Physics.Raycast(transform.position, direction[i], out RaycastHit powerHit, 2, powerMask))
+            {
+                powerBox.SetActive(true);
+                //WallPowerCheck();
+            }
+        }
+        needsWallpower = false;
+    }
 }
+

@@ -6,19 +6,30 @@ TagManager:
   tags:
   - Building
   - Wall
+  - Aura
+  - Mook
+  - floor
+  - UnplacedAura
+  - Enemy
+  - Objective
+  - Bullet
+  - TargetingBubble
+  - turretAura
+  - interactBox
+  - PowerBox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - Building
   - Floor
-  - 
-  - 
-  - 
-  - 
+  - Aura
+  - Targeting
+  - interactBox
+  - PowerBox
   - 
   - 
   - 

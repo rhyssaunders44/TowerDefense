@@ -3,7 +3,15 @@ guid: 423b1c6406e47f442aee278230e3faaf
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - BulletSpawner: {fileID: 1434152630812463328, guid: 386575286b3a6ca4cb127f59e483a7c8, type: 3}
+  - TurretBody: {fileID: 1358832161223162105, guid: 2398f7f43cc14b743b586c95e3e5ee09, type: 3}
+  - Barrel: {fileID: 3218145689477626276, guid: 36b1cb6fa01ce804ea3094c1228bd862, type: 3}
+  - Bullet: {fileID: 573602199286031283, guid: 30ad8f99455c38f4688415f4bc999259, type: 3}
+  - TurretOperator: {instanceID: 0}
+  - inRangeTrigger: {fileID: 2505996968593948664, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
+  - Floor: {fileID: 3758828881062217703, guid: 2d6c4033d45153641bc71265afce9ab0, type: 3}
+  - targetPos: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
