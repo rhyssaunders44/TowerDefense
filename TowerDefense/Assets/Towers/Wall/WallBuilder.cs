@@ -18,6 +18,8 @@ public class WallBuilder : MonoBehaviour
 
     void Start()
     {
+
+        //fires a ray in the nsew directions, if it hits a wall, build a wallpiece
         Vector3 buildDist;
         Vector3 baseRot = new Vector3(90, 0, 0);
         direction = new Vector3[] { transform.forward, transform.right, -transform.forward, -transform.right };
@@ -46,6 +48,9 @@ public class WallBuilder : MonoBehaviour
         }
     }
 
+
+    //i wanted it to update so you could build the buildings in any order and connect a generator and realise it would be powered,
+    // but that was getting too intensive since it would be recursive and without and exit for the recursion it'll blow up
     private void WallPowerCheck()
     {
         direction = new Vector3[] { transform.forward, transform.right, -transform.forward, -transform.right };

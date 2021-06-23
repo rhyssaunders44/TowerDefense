@@ -20,9 +20,10 @@ public class MookBehaviour : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Objective")
+        if(collision.collider.tag == "Objective")
         {
-            Destroy(this);
+            UiManager.baseHp = UiManager.baseHp - 1;
+            Destroy(this.gameObject);
         }
 
         if(collision.gameObject.tag == "Bullet")
@@ -51,6 +52,8 @@ public class MookBehaviour : MonoBehaviour
         {
             Ballistic_tower_basic.targetOptions.Add(this.gameObject);
         }
+
+
     }
 
     private void OnTriggerExit(Collider other)

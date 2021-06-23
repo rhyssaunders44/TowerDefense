@@ -258,7 +258,6 @@ MonoBehaviour:
     m_Bits: 456
   upgradeTeir: 0
   rateOfFire: 0
-  inWave: 0
   targetAquired: 0
   reloading: 1
   reloadStart: 0
@@ -373,6 +372,18 @@ PrefabInstance:
     - target: {fileID: 5258482532308897134, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5258482532308897134, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5258482532308897134, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5258482532308897134, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5258482532308897134, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
       propertyPath: m_LocalPosition.x

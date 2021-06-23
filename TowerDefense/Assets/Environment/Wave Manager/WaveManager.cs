@@ -21,14 +21,18 @@ public class WaveManager : MonoBehaviour
         if(Wave.Count > 0)
         {
             inWave = true;
+            
         }
 
         if(Wave.Count <= 0)
         {
             inWave = false;
+            UiManager.changing = true;
         }
+
     }
 
+    //augmentable for spawning different enemies
     public void SpawnWave(int spawnInt, GameObject enemySpawned)
     {
         Wave.Add(Instantiate(enemySpawned, Spawner.transform.position, Quaternion.identity));
@@ -41,7 +45,9 @@ public class WaveManager : MonoBehaviour
     {
         int mookCount = 1 + 2 * waveNumber;
         waveNumber++;
-        //int enemyPicker = Random.Range(0, Enemies.Length);
+        //picks a random amount of enemies to spawn
+        //can be more complex by factoring in the enemy spawn so that swarms or tough enemies spawn in different amounts 
+        //by changing mookCount to take this into account, or making the random.range function also pick a different "mookCount" that would adjust spawn rates accordingly.
         SpawnWave(mookCount, Enemies[Random.Range(0, Enemies.Length)]);
     }
 }

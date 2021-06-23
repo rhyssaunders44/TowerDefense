@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
@@ -9,13 +10,22 @@ public class UiManager : MonoBehaviour
     [SerializeField] private Color32 colLerp;
     [SerializeField] private float startTime;
     [SerializeField] private float lerpTime;
+    [SerializeField] private Image heatBar;
+    [SerializeField] private Image baseHealthBar;
+    [SerializeField] private GameObject inGameUI;
+    [SerializeField] private GameObject gameOverPanel;
+    public static int baseHp;
+    [SerializeField] private int maxBaseHp;
     public static bool outOfMoney;
     public static bool changing;
 
     private void Start()
     {
+        maxBaseHp = 10;
+        baseHp = maxBaseHp;
         outOfMoney = false;
         changeMoney(BuildManagerScript.currentCash);
+        imagecolorChanger(baseHp, maxBaseHp, baseHealthBar, Color.red, Color.yellow, Color.green);
     }
 
     private void Update()
@@ -35,8 +45,21 @@ public class UiManager : MonoBehaviour
             if(changing)
                 colorFlash(panelImage);
         }
+
+        //changes the hethbar color based on heat amount
+        imagecolorChanger(BuildManagerScript.heat, BuildManagerScript.heatMax, heatBar, Color.green, Color.yellow, Color.red);
+
+        //changes healthbar color baseed on hp
+        imagecolorChanger(baseHp, maxBaseHp, baseHealthBar, Color.red, Color.yellow, Color.green);
+
+        if(baseHp <= 0)
+        {
+            GameOver();
+        }
     }
 
+    //my attempt to get the money panel to flash red if you cant buy the selected turret
+    //doesnt work
     public void colorFlash(Image flashingObject)
     {
         startTime = Time.time;
@@ -59,4 +82,43 @@ public class UiManager : MonoBehaviour
         moneyText.text = "Credits:" + money.ToString();
         changing = false;
     }
+
+    public void imagecolorChanger(float currentNumber, float maxNumber, Image image, Color col1, Color col2, Color col3)
+    {
+
+        image.fillAmount = currentNumber / maxNumber;
+
+        if (currentNumber <= (maxNumber *0.3f))
+        {
+            image.color = col1;
+        }
+
+        if (currentNumber > ( maxNumber * 0.3f) && currentNumber < (maxNumber * 0.8f))
+        {
+            image.color = col2;
+        }
+
+        else if (currentNumber >= (maxNumber * 0.8f))
+        {
+            image.color = col3;
+        }
+
+    }
+
+    public void restartGame()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
+    public void GameOver()
+    {
+        inGameUI.SetActive(false);
+        gameOverPanel.SetActive(true);
+    }
+
 }

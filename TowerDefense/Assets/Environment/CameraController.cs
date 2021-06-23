@@ -14,6 +14,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float startRot;
     [SerializeField] private float endRot;
 
+
+    //a bunch of sofar unimplemented camera stuff
     private void Start()
     {
         rotationIndex = 0;
@@ -21,6 +23,7 @@ public class CameraController : MonoBehaviour
     }
     
 
+    //a bunch of sofar unimplemented camera stuff
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.W) && magnification <= maxZoom)

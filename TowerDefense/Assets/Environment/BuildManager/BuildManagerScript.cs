@@ -44,13 +44,14 @@ public class BuildManagerScript : MonoBehaviour
 
     void Start()
     {
-        heatMax = 10;
+        heatMax = 12;
         finalBuilding = false;
         baseBuildingCost = new int[] { 5, 25, 20 };
     }
 
     void Update()
     {
+        //mouse fires a ray which hits the floor to 
         mouseRay = camera.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(mouseRay, out RaycastHit hit, float.MaxValue, mask))
@@ -75,8 +76,23 @@ public class BuildManagerScript : MonoBehaviour
              Destroy(TempBuilding);
         }
 
-        if(heat > 0)
+    }
+
+    private void FixedUpdate()
+    { 
+
+        //base heat dissapation rate
+        // later can be augmented with a heat sink tower by making heat = heat - heatDissapation rate instead of - a magic number
+        if (heat > 0)
             heat = heat - 0.01f;
+
+
+        //stops you waiting around for heat to dissapate at the end of a wave
+        if(WaveManager.Wave.Count == 0)
+        {
+            heat = heat - heat;
+        }
+
     }
 
     public void BuildGhost(int buildIndex)
