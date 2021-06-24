@@ -24,6 +24,7 @@ public class MookBehaviour : MonoBehaviour
         {
             UiManager.baseHp = UiManager.baseHp - 1;
             Destroy(this.gameObject);
+            WaveManager.Wave.Remove(this.gameObject);
         }
 
         if(collision.gameObject.tag == "Bullet")
@@ -39,7 +40,7 @@ public class MookBehaviour : MonoBehaviour
 
         if (hitPoints <= 0)
         {
-            BuildManagerScript.currentCash = BuildManagerScript.currentCash + 5;
+            BuildManagerScript.currentCash = BuildManagerScript.currentCash + 7;
             WaveManager.Wave.Remove(this.gameObject);
             Ballistic_tower_basic.targetOptions.Remove(this.gameObject);
             Destroy(this.gameObject);

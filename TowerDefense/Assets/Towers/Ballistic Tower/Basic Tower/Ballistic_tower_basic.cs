@@ -39,7 +39,8 @@ public class Ballistic_tower_basic : MonoBehaviour
     {
         //KNOWN ISSUES
         //if one tower is unpowered all will not fire
-        //an out of range exception if a target dies while another turret is targeting it
+        // if a generator is build not connected to a tower, before another turret is built all will not fire
+        // if a tower is built that is unpowered then a powered tower is built the unpowered tower will fire
 
         targetOptions = new List<GameObject>();
         powered = false;
@@ -74,18 +75,20 @@ public class Ballistic_tower_basic : MonoBehaviour
             }
         }
         
+
+
+        TargetAquisition(0);
+
         //dont bother running the following garbage if there are no potential targets
         if (targetOptions.Count == 0)
             return;
-
-        TargetAquisition(0);
 
         //checks if the target is in range
         targetPos = targetOptions[targetID].transform;
         distToTarget = Vector3.Distance(targetOptions[targetID].transform.position, TurretBody.transform.position);
         TurretOperator.transform.LookAt(targetPos);
 
-        if (distToTarget <= range + 2 && powered)
+        if (distToTarget <= range && powered)
         {
             //my attempt at getting a turret yaw action
             float yAngle = TurretOperator.transform.localEulerAngles.y - TurretBody.transform.localEulerAngles.y;
@@ -104,22 +107,9 @@ public class Ballistic_tower_basic : MonoBehaviour
            //if its looking at the target, fire
            if(Physics.Raycast(BulletSpawner.transform.position, BulletSpawner.transform.forward, out RaycastHit hit, range, mask))
            {
-                Fire(upgradeTeir);
                 targetAquired = true;
+                Fire(upgradeTeir);
            }
-        }
-
-        //if the target is out of range, go to the next target
-        // theoretically the target should have been removed from the list, and then cleaned up by target aquisition
-        // that does not seem to be the case, but target the next target in the target list
-        if (distToTarget > range)
-        {
-            targetAquired = false;
-            targetID++;
-            if(targetID > targetOptions.Count)
-            {
-                targetID = 0;
-            }
         }
     }
 
@@ -127,13 +117,15 @@ public class Ballistic_tower_basic : MonoBehaviour
     //since it runs every frame (ew) it only cares if there are potential targets
     public void TargetAquisition(int sortIndex)
     {
-        if(targetOptions.Count != 0)
+        for (int i = targetOptions.Count - 1; i >= 0; i--)
         {
-            targetOptions.RemoveAll(GameObject => GameObject == null);
+            if (targetOptions[i] == null)
+            {
+                targetOptions.Remove(targetOptions[i]);
+            }
         }
 
         targetID = sortIndex;
-
     }
 
     //build based on the idea that bullets could do different damages based on upgrade level

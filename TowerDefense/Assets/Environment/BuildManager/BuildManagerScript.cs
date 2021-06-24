@@ -46,7 +46,7 @@ public class BuildManagerScript : MonoBehaviour
     {
         heatMax = 12;
         finalBuilding = false;
-        baseBuildingCost = new int[] { 5, 25, 20 };
+        baseBuildingCost = new int[] { 5, 25, 20, 15 };
     }
 
     void Update()
@@ -132,6 +132,7 @@ public class BuildManagerScript : MonoBehaviour
 
             Ballistic_tower_basic.needsPowerCheck = true;
             WallBuilder.needsWallpower = true;
+            HeatSink.needsContact = true;
         }
         else
         {
