@@ -14,13 +14,17 @@ public class UiManager : MonoBehaviour
     [SerializeField] private Image baseHealthBar;
     [SerializeField] private GameObject inGameUI;
     [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject pausePanel;
     public static int baseHp;
     [SerializeField] private int maxBaseHp;
     public static bool outOfMoney;
     public static bool changing;
+    [SerializeField] private bool paused;
 
     private void Start()
     {
+        Time.timeScale = 1;
+        paused = false;
         maxBaseHp = 10;
         baseHp = maxBaseHp;
         outOfMoney = false;
@@ -56,6 +60,33 @@ public class UiManager : MonoBehaviour
         {
             GameOver();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (paused)
+            {
+                PauseMenu(paused);
+            }
+            if (!paused)
+            {
+                PauseMenu(!paused);
+            }
+        }
+    }
+
+    public void PauseMenu(bool isPaused)
+    {
+        if (isPaused)
+        {
+            pausePanel.SetActive(true);
+            Time.timeScale = 0;
+        }
+        else
+        {
+            pausePanel.SetActive(false);
+            Time.timeScale = 1;
+        }
+
     }
 
     //my attempt to get the money panel to flash red if you cant buy the selected turret

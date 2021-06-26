@@ -56,7 +56,7 @@ public class Ballistic_tower_basic : MonoBehaviour
         powerCheck();
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
         //an attempt to get the power system to work
         
@@ -97,8 +97,8 @@ public class Ballistic_tower_basic : MonoBehaviour
             //seems to only rotate from 0-360 degrees and will not take shortest route to look at target if it has to go through 0
 
             //magic speed of rotation cap
-            if (yAngle > 1f)
-                yAngle = 1f;
+            if (yAngle > 3f)
+                yAngle = 3f;
 
             //rotate the rotatableparts based on the above
             TurretBody.transform.Rotate(Vector3.up, yAngle);
