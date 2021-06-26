@@ -15,11 +15,11 @@ C:/Users/Rhys/Documents/GitHub/TowerDefense/TowerDefense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53968
+63715
 Successfully changed project path to: C:/Users/Rhys/Documents/GitHub/TowerDefense/TowerDefense
 C:/Users/Rhys/Documents/GitHub/TowerDefense/TowerDefense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,127 +35,495 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002188 seconds.
+Registered in 0.002096 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 18.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  0.903 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000721 seconds.
+Registered in 0.000751 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
+- Completed reload, in  0.722 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.2 MB.
-System memory in use after: 70.2 MB.
+System memory in use before: 70.5 MB.
+System memory in use after: 70.5 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1571.
-Total: 1.360600 ms (FindLiveObjects: 0.112800 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.145400 ms  DeleteObjects: 0.067100 ms)
+Total: 1.349100 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.101200 ms  DeleteObjects: 0.068700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Towers
-  artifactKey: Guid(283366ed67c928f4397d5e794c8cc22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers using Guid(283366ed67c928f4397d5e794c8cc22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ffaa34662498c9b5cec169b8289519') in 0.003282 seconds
-  Import took 0.005706 seconds .
+  path: Assets/Enemies/Mook.prefab
+  artifactKey: Guid(270f67f669ec1de4591f83bfc4495e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Mook.prefab using Guid(270f67f669ec1de4591f83bfc4495e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77e42a9f68345ffd6d09e4d19c71108') in 0.094476 seconds
+  Import took 0.097220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.162146 seconds.
-  path: Assets/Towers/Ballistic Tower
-  artifactKey: Guid(e6f61b1dad63037458f832889e64b58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower using Guid(e6f61b1dad63037458f832889e64b58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc668d60a582699ec6c6f51c38689b4') in 0.001996 seconds
-  Import took 0.004568 seconds .
+  Time since last request: 0.000384 seconds.
+  path: Assets/torrents 2.fbx
+  artifactKey: Guid(87fc23dc3ae5b9a41a7fce549da1f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/torrents 2.fbx using Guid(87fc23dc3ae5b9a41a7fce549da1f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3d44a33c7ded8a9fbcdfa175c5f476') in 0.083520 seconds
+  Import took 0.086018 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.678239 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower
-  artifactKey: Guid(f5ea9ea3a99efa24ebe3143ca29ab86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower using Guid(f5ea9ea3a99efa24ebe3143ca29ab86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7b0b131d5c053538822df9075260c9') in 0.002091 seconds
-  Import took 0.004703 seconds .
+  Time since last request: 6.473358 seconds.
+  path: Assets/torrents 2.fbx
+  artifactKey: Guid(87fc23dc3ae5b9a41a7fce549da1f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/torrents 2.fbx using Guid(87fc23dc3ae5b9a41a7fce549da1f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3d44a33c7ded8a9fbcdfa175c5f476') in 0.033287 seconds
+  Import took 0.036147 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.060194 seconds.
+  Time since last request: 67.089090 seconds.
   path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
   artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474a38a305e7f96a13cd0e7fab8655b1') in 0.106117 seconds
-  Import took 0.109051 seconds .
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6342fb9dc0109a2c33835645b2c25747') in 0.015721 seconds
+  Import took 0.019478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/RangeMaterial.mat
-  artifactKey: Guid(b0909afcf0ac8d340a487027a1af70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/RangeMaterial.mat using Guid(b0909afcf0ac8d340a487027a1af70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e0e67130c78d208847e3bf26d49ce6') in 0.021739 seconds
-  Import took 0.024222 seconds .
+  Time since last request: 6.827543 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb47939d1708822b602ac7dfbbe2c4b9') in 0.011483 seconds
+  Import took 0.014963 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/InteractBox.mat
-  artifactKey: Guid(3ffda25b9c2b7f84e906d79922f70dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/InteractBox.mat using Guid(3ffda25b9c2b7f84e906d79922f70dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecad77cc9274f43c816607ee8da604b') in 0.005578 seconds
-  Import took 0.008228 seconds .
+  Time since last request: 14.148412 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1530f345881c82592cf051ef8f8b43b') in 0.011590 seconds
+  Import took 0.015161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.824805 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213c6336d43a9a80a67a1e5653ca5978') in 0.013026 seconds
+  Import took 0.016940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.269918 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef50099c39efcb51c2a2d8ed7d5f3e4d') in 0.014902 seconds
+  Import took 0.018845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.209178 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997373e6b75b5822fcf5cb52712e1eac') in 0.013523 seconds
+  Import took 0.018333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.519697 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc855a295acf3c24d1e56a754d73a37c') in 0.013803 seconds
+  Import took 0.017299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.148901 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754d59c9b9ba8e84efd78a1df6f713f1') in 0.013520 seconds
+  Import took 0.017070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.801407 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0154c9ec71635caf793ee68686cbd595') in 0.018252 seconds
+  Import took 0.022445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.929278 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24474302501fedaf86d1538c8c4aa8e5') in 0.013344 seconds
+  Import took 0.019494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.441608 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2a2357dd359cc282e5e5d7151e2b6d') in 0.017496 seconds
+  Import took 0.021288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.680489 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d5b92c69938805179761e19577384b') in 0.017613 seconds
+  Import took 0.021869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.576788 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a8eeb28bc0eee3767c6611d53af31b') in 0.012591 seconds
+  Import took 0.016083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.999954 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232e3f5113513331fd5bcd0f57f0b527') in 0.017315 seconds
+  Import took 0.021909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.532303 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3308a202eee0f9007f1c697f2224a5cb') in 0.026392 seconds
+  Import took 0.029445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.242301 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571a7c88b01c71bb7f51e7413e03d07b') in 0.012393 seconds
+  Import took 0.015658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390605 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a98090ced9a2ab4f648f4e4dff27e1') in 0.011770 seconds
+  Import took 0.014944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.892853 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58161abd03b6f7d09eabcbc1d57e925d') in 0.011515 seconds
+  Import took 0.015186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.771051 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/torrents 2.prefab
+  artifactKey: Guid(11122600cff78464f9b0672e82996579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/torrents 2.prefab using Guid(11122600cff78464f9b0672e82996579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59f6f0342bd627544a0140646d9dd85') in 0.012248 seconds
+  Import took 0.016323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002156 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/torrents 2.prefab
+  artifactKey: Guid(11122600cff78464f9b0672e82996579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/torrents 2.prefab using Guid(11122600cff78464f9b0672e82996579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59f6f0342bd627544a0140646d9dd85') in 0.008384 seconds
+  Import took 0.011627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.375819 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab
+  artifactKey: Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab using Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97e46a154bb8d35843e20072eb796d1') in 0.011332 seconds
+  Import took 0.015356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.576101 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab
+  artifactKey: Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab using Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947d2de420dbe42722e443b798f933a7') in 0.014236 seconds
+  Import took 0.017870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.772676 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab
+  artifactKey: Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab using Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501e87d2e94e9a60197d681189996f37') in 0.008848 seconds
+  Import took 0.060857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.689669 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d969643a8415683b70bda65449ffd39') in 0.012648 seconds
+  Import took 0.015675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.548003 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7981459947fe5ab80941c1ee5e4c9564') in 0.014296 seconds
+  Import took 0.018469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.627526 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60686e77cd3b2f8eb7a00cd82e22d4a') in 0.015872 seconds
+  Import took 0.020602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.696654 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e90fda73fd9e6edbecdf75e47cb102') in 0.016223 seconds
+  Import took 0.021025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.392749 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de3efbe1f7b12a507b369fb14912d57') in 0.017129 seconds
+  Import took 0.022844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.449441 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6e6677826764488a9babdd10a5ec26') in 0.013642 seconds
+  Import took 0.017755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.840277 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9685e3effcf97406cb4709e8d0851a2') in 0.014340 seconds
+  Import took 0.018254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.230966 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f44e00379593fa007f28d86d56184ca') in 0.013391 seconds
+  Import took 0.017150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.976561 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646e4e8c896f768405e96b2c51a3894') in 0.012582 seconds
+  Import took 0.016116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab
+  artifactKey: Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/torrents 2 1.prefab using Guid(f0a21cc8dd226ef438b8d4686c835369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f451de697fcfc37b344ede342bb6a4') in 0.007448 seconds
+  Import took 0.010172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.777625 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce696f3dc90bd0a2ebe75cfba8d1431') in 0.012308 seconds
+  Import took 0.015446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.316340 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2665704a8e12fdc568b3dff481a087b4') in 0.014561 seconds
+  Import took 0.018038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.146117 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf23d10ee6b3b8999386330aefb60a8d') in 0.014342 seconds
+  Import took 0.018846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.231770 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fec5c4c34e831c133a9e101440e147') in 0.013266 seconds
+  Import took 0.017034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.839710 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2d95ee8eda8a05f1d3828224e7ad3e') in 0.014009 seconds
+  Import took 0.017435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.227443 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b703fc04798b811996fdd13248cab85f') in 0.012457 seconds
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.337405 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217036929ca4ad286353a21b67a7a187') in 0.013836 seconds
+  Import took 0.017571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.487226 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4024ef9ff267e84097ea012d340cdf67') in 0.012798 seconds
+  Import took 0.016328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.918315 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1cf3dcd7808d2de48bfbbd2f28c10e') in 0.013307 seconds
+  Import took 0.017109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.618451 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c39d45bab54af3e1ea3c213952be86') in 0.012624 seconds
+  Import took 0.016212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.294510 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503c39d81b5df353de4e5ab406286546') in 0.014680 seconds
+  Import took 0.018500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.881766 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfae468ac34ebabe5853943c73afd242') in 0.013380 seconds
+  Import took 0.017122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922067 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Barrel.prefab
+  artifactKey: Guid(36b1cb6fa01ce804ea3094c1228bd862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Barrel.prefab using Guid(36b1cb6fa01ce804ea3094c1228bd862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649792d3037ce36f12f59ce123833da1') in 0.006805 seconds
+  Import took 0.009867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/BulletSpawner.prefab
+  artifactKey: Guid(386575286b3a6ca4cb127f59e483a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/BulletSpawner.prefab using Guid(386575286b3a6ca4cb127f59e483a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394f04407fb9ade9be09361632c22d2c') in 0.003784 seconds
+  Import took 0.006533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Turret opperator.prefab
+  artifactKey: Guid(e46d8325335aa9b4dac315132d643726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Turret opperator.prefab using Guid(e46d8325335aa9b4dac315132d643726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284c19094c22ff5c6cc25b36bba4e00c') in 0.003696 seconds
+  Import took 0.007064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/BulletSpawner.prefab
+  artifactKey: Guid(386575286b3a6ca4cb127f59e483a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/BulletSpawner.prefab using Guid(386575286b3a6ca4cb127f59e483a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394f04407fb9ade9be09361632c22d2c') in 0.003737 seconds
+  Import took 0.006775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Barrel.prefab
+  artifactKey: Guid(36b1cb6fa01ce804ea3094c1228bd862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Barrel.prefab using Guid(36b1cb6fa01ce804ea3094c1228bd862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649792d3037ce36f12f59ce123833da1') in 0.006640 seconds
+  Import took 0.009391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/TurretBody.prefab
+  artifactKey: Guid(2398f7f43cc14b743b586c95e3e5ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/TurretBody.prefab using Guid(2398f7f43cc14b743b586c95e3e5ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4adc436428240d63f60946bbb5c1b5c') in 0.007745 seconds
+  Import took 0.010513 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000371 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/PowerBox.prefab
-  artifactKey: Guid(0edcf5dbbc963974a8eb1160c4b7ab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/PowerBox.prefab using Guid(0edcf5dbbc963974a8eb1160c4b7ab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd79507129e0f6997abf5b74ad92782') in 0.003678 seconds
-  Import took 0.006344 seconds .
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Sphere.prefab
+  artifactKey: Guid(5207e314c2bd4f547b667ddf71b19032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab/Sphere.prefab using Guid(5207e314c2bd4f547b667ddf71b19032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218cfd4ee8e621b8fb7bd4a96e34e217') in 0.009442 seconds
+  Import took 0.012402 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/mouse select enabler.prefab
-  artifactKey: Guid(5e9e820b889f67c449f8f994f70d8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/mouse select enabler.prefab using Guid(5e9e820b889f67c449f8f994f70d8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77831114cebb25ee5a87cebb181ebbf7') in 0.005664 seconds
-  Import took 0.008427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.184168 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs
-  artifactKey: Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs using Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ddba0bedba60c2b92511050d51fe3d') in 0.005532 seconds
-  Import took 0.008099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021724 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs
-  artifactKey: Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs using Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ddba0bedba60c2b92511050d51fe3d') in 0.001935 seconds
-  Import took 0.004718 seconds .
+  Time since last request: 368.430688 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd532bf77489f6c73fc49be2ebed6dab5') in 0.013716 seconds
+  Import took 0.017236 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000676 seconds.
+Registered in 0.000711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
@@ -169,77 +537,72 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.8 MB.
-System memory in use after: 73.9 MB.
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1617.
-Total: 1.370100 ms (FindLiveObjects: 0.129900 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.148800 ms  DeleteObjects: 0.053300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.743978 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs
-  artifactKey: Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs using Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213cad1ce6295845dab4d57124fe6f34') in 0.003903 seconds
-  Import took 0.006595 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 52.9 MB.
-System memory in use after: 53.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1617.
-Total: 2.050200 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.048300 ms MarkObjects: 1.803400 ms  DeleteObjects: 0.046800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000685 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.8 MB.
-System memory in use after: 74.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1619.
-Total: 1.330800 ms (FindLiveObjects: 0.118500 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.123500 ms  DeleteObjects: 0.051800 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 1.399900 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.072000 ms MarkObjects: 1.093700 ms  DeleteObjects: 0.055300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.138268 seconds.
-  path: Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs
-  artifactKey: Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Towers/Ballistic Tower/Basic Tower/Ballistic_tower_basic.cs using Guid(423b1c6406e47f442aee278230e3faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2818157699e11785fde5572abaeb820f') in 0.003705 seconds
-  Import took 0.006437 seconds .
+  Time since last request: 13.807671 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d770efc1ea8c56adcb0bd9c3d9e3ff') in 0.055722 seconds
+  Import took 0.059101 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.7 MB.
-System memory in use after: 53.8 MB.
+Received Import Request.
+  Time since last request: 23.050086 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f7206e58cdd67d638815785f39be3e') in 0.011418 seconds
+  Import took 0.015106 seconds .
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1619.
-Total: 1.321200 ms (FindLiveObjects: 0.112700 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.132100 ms  DeleteObjects: 0.044800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 6.881264 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c99fa923de0d36ac68c97243a2b6e8b') in 0.018017 seconds
+  Import took 0.025407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.994822 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddfcc10ff755d75a177fba594c2752d') in 0.015394 seconds
+  Import took 0.019578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.993663 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd281e5165c5002f86fc87251242303cc') in 0.011276 seconds
+  Import took 0.014920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000781 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05ff34874cd787128566f8b1f743447') in 0.011856 seconds
+  Import took 0.014808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.764874 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d83af1160e06bd582dae9dab42443e1') in 0.012639 seconds
+  Import took 0.016210 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000947 seconds.
+Registered in 0.000761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
@@ -248,113 +611,45 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.8 MB.
-System memory in use after: 74.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.307800 ms (FindLiveObjects: 0.127600 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.095100 ms  DeleteObjects: 0.049000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000719 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
+- Completed reload, in  0.632 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 74.9 MB.
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1623.
-Total: 1.264500 ms (FindLiveObjects: 0.111600 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.079300 ms  DeleteObjects: 0.043400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 1.422300 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.147400 ms  DeleteObjects: 0.064100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.421654 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8f06ef786b0ba9a051975f989c8752') in 0.053065 seconds
+  Import took 0.056241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.603338 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e495b1d0a039bb7f80beb03941dd7975') in 0.011825 seconds
+  Import took 0.014955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.246564 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1315fc9e89cb3263811d3a6b0b901e') in 0.013101 seconds
+  Import took 0.018144 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000702 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.8 MB.
-System memory in use after: 74.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1625.
-Total: 1.203400 ms (FindLiveObjects: 0.112800 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.020600 ms  DeleteObjects: 0.041000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001035 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.694 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 74.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1627.
-Total: 1.314800 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.095700 ms  DeleteObjects: 0.051000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000713 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 74.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1629.
-Total: 1.303200 ms (FindLiveObjects: 0.119500 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.105500 ms  DeleteObjects: 0.043300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000742 seconds.
+Registered in 0.000710 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
@@ -363,44 +658,29 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
+- Completed reload, in  0.676 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 75.0 MB.
+System memory in use before: 75.5 MB.
+System memory in use after: 75.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1631.
-Total: 1.835900 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.569600 ms  DeleteObjects: 0.062000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 1.399900 ms (FindLiveObjects: 0.131100 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.147800 ms  DeleteObjects: 0.070100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.736738 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439f44e3ee5f4fbb93498e0a9a9c5a9a') in 0.055694 seconds
+  Import took 0.061138 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000787 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 74.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.269400 ms (FindLiveObjects: 0.115100 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.080200 ms  DeleteObjects: 0.044000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000976 seconds.
+Registered in 0.000691 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
@@ -409,21 +689,261 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
+- Completed reload, in  0.614 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 75.0 MB.
+System memory in use before: 75.4 MB.
+System memory in use after: 75.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1635.
-Total: 1.390300 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.175800 ms  DeleteObjects: 0.048300 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1629.
+Total: 1.308600 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.069600 ms  DeleteObjects: 0.062000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.254845 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064fa7e553956f8de9280414c2370682') in 0.063307 seconds
+  Import took 0.068335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.181563 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfc237f3d238b944fdcaf28e24b6aa8') in 0.014632 seconds
+  Import took 0.018831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.013407 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a19e4d1bacb94c4200545620332a46') in 0.013405 seconds
+  Import took 0.017020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.612894 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f586d005c88f9bf79f858312189eec') in 0.013190 seconds
+  Import took 0.016987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.226184 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0dd6c73e08c9fd47b59f48a05fc95f') in 0.013999 seconds
+  Import took 0.019152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.815939 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd974cf75d8e6095b00dfe92e51be19ba') in 0.016589 seconds
+  Import took 0.020996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.099603 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88637ae71dba0075daff7e83687799d4') in 0.015381 seconds
+  Import took 0.019164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.002419 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126e37f4f01210253c3c0c71a66b66bd') in 0.014414 seconds
+  Import took 0.019444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.480127 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675d14bbc3726c6d3611b15d90571bfb') in 0.014707 seconds
+  Import took 0.018538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.409176 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539db09ca16be0b7498bcffdb75cbac6') in 0.011806 seconds
+  Import took 0.015526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.008953 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6030053f9e59501dbee716c7b179a779') in 0.016606 seconds
+  Import took 0.022563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.394427 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8843471a9695067e42f2c7180df4200') in 0.011892 seconds
+  Import took 0.015160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.414707 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cbf736018848f246e798298823e0b6') in 0.012313 seconds
+  Import took 0.015437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.467103 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be398b1feafe6af6ffcda56f278a0856') in 0.011207 seconds
+  Import took 0.014499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.131340 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f189695cb99164a59930b13c248260') in 0.012094 seconds
+  Import took 0.015704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.267301 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c04156e6d359a7173691984030e864c') in 0.013589 seconds
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.286167 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26656512bdb9d5d239a6986fac91a667') in 0.012928 seconds
+  Import took 0.016233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.179353 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ae2ef72f2e61dcf75fbd16eac330a4') in 0.012603 seconds
+  Import took 0.016342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.753765 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901cb04172437e84c43e2b0a5cd8cbc0') in 0.012494 seconds
+  Import took 0.015596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.265380 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2879ec579f249165ec6405eabf1e1d5d') in 0.014312 seconds
+  Import took 0.018538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.148655 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088d3ca5cb6f292fabc36efd87842318') in 0.011711 seconds
+  Import took 0.014906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.796832 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9f7f465be18ce37730a2ec25e06112') in 0.013039 seconds
+  Import took 0.016833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.715941 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa586f23a068b7208163a78613fdb46e') in 0.013566 seconds
+  Import took 0.017434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145555 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15a8ce847e52a4213818b59c86b375c') in 0.013041 seconds
+  Import took 0.016414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.313647 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4910d5ad60b1dd5e47e8d90c93110b1e') in 0.012758 seconds
+  Import took 0.016338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.455259 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d791abfe1518ea1bb0693cd468ba574') in 0.014023 seconds
+  Import took 0.018256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.547893 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16decf2e1731b424a4d5632afdbbf08e') in 0.012346 seconds
+  Import took 0.015327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.188979 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05a158961c818538aa0a4e70015b797') in 0.012358 seconds
+  Import took 0.015619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.074489 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3454899c1d4f9fd30d925d0373bea2c7') in 0.015716 seconds
+  Import took 0.021976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.724898 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b827c1546f4c68009eff5ce66eec6b4b') in 0.012866 seconds
+  Import took 0.016437 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000642 seconds.
+Registered in 0.000725 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
@@ -432,16 +952,398 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
+- Completed reload, in  0.625 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 75.0 MB.
+System memory in use before: 75.6 MB.
+System memory in use after: 75.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1637.
-Total: 1.334400 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.125400 ms  DeleteObjects: 0.045900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1632.
+Total: 1.324800 ms (FindLiveObjects: 0.121400 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.113100 ms  DeleteObjects: 0.057600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.335715 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6bdde0d668fb1a576e736fa7d62dcd') in 0.049050 seconds
+  Import took 0.052096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.177846 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0756e097ca84230be220b2e6dd3e46fb') in 0.013895 seconds
+  Import took 0.033747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.650652 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c610bd16690f526e7d97f7b780ba04') in 0.013015 seconds
+  Import took 0.017104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.542399 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ff166d7bc017100448f6ec5aaf0e5c') in 0.013879 seconds
+  Import took 0.017019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.047473 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abe7491d04f140c7f6df1b33405850f') in 0.017657 seconds
+  Import took 0.022597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.208475 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac41eff7634fdcad0bea2d26f3537a1') in 0.018100 seconds
+  Import took 0.023772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.415664 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1150b438725b3f22874b4737df762a') in 0.016977 seconds
+  Import took 0.021011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.202316 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c081a019cbc2df232749318596a41a1') in 0.012882 seconds
+  Import took 0.016459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.149457 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ba3cedc23b3d02e4c1eb7cb7d070b7') in 0.012564 seconds
+  Import took 0.015588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.915342 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a04abbab9ade38e17963add2b045da') in 0.013530 seconds
+  Import took 0.017097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.349676 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4eaa918a3d7df1d1bcae162a8eb3eae') in 0.013913 seconds
+  Import took 0.017462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.416604 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69811ae1e7bfca8b1041fb8c4662e5a9') in 0.013039 seconds
+  Import took 0.018739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547926 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1ace762c417b01ce518ac8bcc588a5') in 0.013863 seconds
+  Import took 0.017546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.002991 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb8eb47d19dd6f6226929009268c1f1') in 0.013342 seconds
+  Import took 0.016752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.215229 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11093758d123abc4783f75174963b65') in 0.014824 seconds
+  Import took 0.019017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.048340 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c495503b3de4d1e3c2fa411638ac9d5') in 0.015808 seconds
+  Import took 0.020552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.233562 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a538d56335f547ed2efb051fa72997e7') in 0.018943 seconds
+  Import took 0.022992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.348712 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d04ee51c2d5595102b22a2789d8aed2') in 0.011772 seconds
+  Import took 0.014825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.153697 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780da8c4996081b030bb75a6eaae7bbd') in 0.012321 seconds
+  Import took 0.015977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.188468 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfac3c51de9c2416cf1a089153205195') in 0.014605 seconds
+  Import took 0.018523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.948329 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f497586e27759ef944377b0a785ffd') in 0.011517 seconds
+  Import took 0.015210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.448802 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b14c546a21a22618ec574a3c504a530') in 0.014811 seconds
+  Import took 0.019325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.453639 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb83736fd95d97d55a9cf8e05c81c7ed') in 0.017008 seconds
+  Import took 0.021414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.797043 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3909ae6985dc4068ec4cd237bc8820d8') in 0.015271 seconds
+  Import took 0.019430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.256704 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6308b1a3f7054b170d9c4bcff921920b') in 0.011713 seconds
+  Import took 0.021990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.351838 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe5bcf7ac655af486344b1448383a70') in 0.012323 seconds
+  Import took 0.015431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.111055 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25c2b7b1bc66d8c6823b4ac73738424') in 0.013445 seconds
+  Import took 0.019829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.544978 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7e7ee6414c1c17299982551887bd5a') in 0.014448 seconds
+  Import took 0.017700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.462928 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e1526af03178c84c4d9bac4d305419') in 0.014198 seconds
+  Import took 0.018383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.395815 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db023dcddad70da2e7c3f3f5f1422a73') in 0.015099 seconds
+  Import took 0.020428 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1635.
+Total: 1.355500 ms (FindLiveObjects: 0.135300 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.125100 ms  DeleteObjects: 0.058800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.069382 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3505430731580ce648c32b5c3ba18047') in 0.061584 seconds
+  Import took 0.065672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.089979 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40da8dda5a6903176f0ca30a100b22ea') in 0.012350 seconds
+  Import took 0.015783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.595464 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b63976a2730c6fc2c4d33d606edb0de') in 0.011852 seconds
+  Import took 0.014939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.607558 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff422e71d15fae45c3dd65a575c4dfe') in 0.014000 seconds
+  Import took 0.017950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.611574 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c62b1ea9f68ec7e9cc33441be3ca9') in 0.013556 seconds
+  Import took 0.018239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.408725 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b78607abed3bc7d738d5f438dff5b00') in 0.015654 seconds
+  Import took 0.022210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.341381 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ab9f869345e80076bac3878411a253') in 0.011984 seconds
+  Import took 0.015210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.639376 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e47cd7a7a09385dd3b554a42a05d9a5') in 0.013903 seconds
+  Import took 0.019192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.556399 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e64d32e9522779aff12c79b8ae71fdd') in 0.013701 seconds
+  Import took 0.017028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790315 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71e57c513985581e6a81e8f213e4783') in 0.014071 seconds
+  Import took 0.018180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.932743 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a19a11261125dc946d0763c07163472') in 0.011525 seconds
+  Import took 0.015317 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1638.
+Total: 1.243600 ms (FindLiveObjects: 0.119500 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.037000 ms  DeleteObjects: 0.057600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.041794 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c90ec5baec244753305ac6e752292c') in 0.049055 seconds
+  Import took 0.052138 seconds .
 
 ========================================================================
 Received Prepare
@@ -449,21 +1351,1091 @@ Registering precompiled user dll's ...
 Registered in 0.000716 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1641.
+Total: 1.322700 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.102200 ms  DeleteObjects: 0.060900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 1.392800 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.163100 ms  DeleteObjects: 0.060300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1645.
+Total: 1.284700 ms (FindLiveObjects: 0.124100 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.081900 ms  DeleteObjects: 0.046400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 1.473100 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.253900 ms  DeleteObjects: 0.054000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 1.388300 ms (FindLiveObjects: 0.130600 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.182100 ms  DeleteObjects: 0.044700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 545.199741 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d56d99eb55434016db1da129f677d82') in 0.064732 seconds
+  Import took 0.068694 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.647 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 1.371300 ms (FindLiveObjects: 0.131100 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.142900 ms  DeleteObjects: 0.058700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 1.375400 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.153400 ms  DeleteObjects: 0.054700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 1.443600 ms (FindLiveObjects: 0.135800 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.219900 ms  DeleteObjects: 0.052000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.100505 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab
+  artifactKey: Guid(6722b3d9deb019541beec38fcb8976c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/ballistic tower prefab using Guid(6722b3d9deb019541beec38fcb8976c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa3216a8820901908ed47ade553cfa4') in 0.005604 seconds
+  Import took 0.008367 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 1.422900 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.179000 ms  DeleteObjects: 0.048700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.447300 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.210800 ms  DeleteObjects: 0.055400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 1.330600 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.106800 ms  DeleteObjects: 0.050200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 1.824500 ms (FindLiveObjects: 0.214600 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.498000 ms  DeleteObjects: 0.057300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.754936 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c0f545caf7480e5527538ec32ab5c3') in 0.049956 seconds
+  Import took 0.053191 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 1.488800 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.108800 ms  DeleteObjects: 0.079900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1669.
+Total: 1.484300 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.254200 ms  DeleteObjects: 0.050500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.643142 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e68054660cf99eede4ac42de26dadd') in 0.053208 seconds
+  Import took 0.056317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.434180 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e68054660cf99eede4ac42de26dadd') in 0.012030 seconds
+  Import took 0.015258 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 1.410700 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.172000 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.364449 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223239351e938682b4f0ce93b48a860d') in 0.047846 seconds
+  Import took 0.050901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.073008 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bbdfe0fc699d60101d71fdd1d8522e') in 0.012369 seconds
+  Import took 0.016932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.357253 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad71f1799363dbcff5c77c29b6a966ef') in 0.014401 seconds
+  Import took 0.018372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.733892 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14858be60a9eb05b53aeafafcd758746') in 0.012762 seconds
+  Import took 0.016986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.714283 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77800f1b0cea60a2324061f41689aa9c') in 0.012385 seconds
+  Import took 0.016473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.377584 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf64fa7f45a40d961c96c54d34c3e49') in 0.015171 seconds
+  Import took 0.019269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.612969 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a98666abe9e0a619ab22609dd93083') in 0.013817 seconds
+  Import took 0.018079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.292399 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab
+  artifactKey: Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab using Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9c0c2690a379a5e5c812fefd258f90') in 0.007756 seconds
+  Import took 0.010933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/Particle System.prefab
+  artifactKey: Guid(e1bddf4389d2ea04aac7f717e7ab1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/Particle System.prefab using Guid(e1bddf4389d2ea04aac7f717e7ab1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0da343a3a728d0d220fdd6e821391f') in 0.006501 seconds
+  Import took 0.010486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/Trail.prefab
+  artifactKey: Guid(d07d7b1ded18359429141dbe4360695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/Trail.prefab using Guid(d07d7b1ded18359429141dbe4360695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb3ca695c18f84767e2e3b1b935e67e') in 0.004504 seconds
+  Import took 0.007619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.138543 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/BulletBehaviour.cs
+  artifactKey: Guid(32d6063ffd22ade4b8cde32ec5d15e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/BulletBehaviour.cs using Guid(32d6063ffd22ade4b8cde32ec5d15e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1cac1409ab20b0476707633f52cac8') in 0.007129 seconds
+  Import took 0.009936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001596 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/BulletBehaviour.cs
+  artifactKey: Guid(32d6063ffd22ade4b8cde32ec5d15e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/BulletBehaviour.cs using Guid(32d6063ffd22ade4b8cde32ec5d15e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1cac1409ab20b0476707633f52cac8') in 0.002059 seconds
+  Import took 0.004821 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000707 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 1.349800 ms (FindLiveObjects: 0.126700 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.131500 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.900595 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/BulletBehaviour.cs
+  artifactKey: Guid(32d6063ffd22ade4b8cde32ec5d15e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/BulletBehaviour.cs using Guid(32d6063ffd22ade4b8cde32ec5d15e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4db63bd007f0e70b793522421b4084') in 0.003449 seconds
+  Import took 0.006204 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 1.613200 ms (FindLiveObjects: 0.160800 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.346500 ms  DeleteObjects: 0.051900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.619350 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31e5baf1ed81fad34892e6edf13ea65') in 0.067023 seconds
+  Import took 0.070994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.299395 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e792653bab7e50d939f352f9b37f440') in 0.017305 seconds
+  Import took 0.022218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.315903 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbb8051abb8a554df42b7e44325e580') in 0.015320 seconds
+  Import took 0.021594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406076 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cb5ed77befa2a303992045adfce876') in 0.012374 seconds
+  Import took 0.015686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.837838 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c18129e58d0a3c9676cb3ba9cf1d1') in 0.013013 seconds
+  Import took 0.016529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.246850 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91684425745d99d78b0b8788a1095435') in 0.015055 seconds
+  Import took 0.019040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.594590 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f78a604fd1f5831595ef22623b13fe') in 0.013200 seconds
+  Import took 0.016653 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 1.451800 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.207000 ms  DeleteObjects: 0.064500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.954413 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001546bd10a214496b0eb8e63a74e996') in 0.056829 seconds
+  Import took 0.060681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.378160 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb40cec17eb1cce0d8b6b5dc108e4b8') in 0.012720 seconds
+  Import took 0.017419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.344688 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddc07e74f65d3d80efabdd8f99f92af') in 0.013769 seconds
+  Import took 0.017697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.670956 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62feb68df04e99a07e80ac17e4a40c89') in 0.014795 seconds
+  Import took 0.018899 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1683.
+Total: 1.317600 ms (FindLiveObjects: 0.127700 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.101300 ms  DeleteObjects: 0.056400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.326745 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbdc9869389aa272c89c74e9be3118a') in 0.052121 seconds
+  Import took 0.055809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.839797 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f1d3cb85f7093a447097e8c111f74c') in 0.014960 seconds
+  Import took 0.019249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.221418 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fd24a12881464e3fea77aab8e03b1e') in 0.014964 seconds
+  Import took 0.019232 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.9 MB.
-System memory in use after: 75.0 MB.
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1639.
-Total: 1.246200 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.048300 ms  DeleteObjects: 0.046700 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 1.396300 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.137400 ms  DeleteObjects: 0.061700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.867969 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9accf2383f2bee4d24c3c56d108705') in 0.062460 seconds
+  Import took 0.066367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.175290 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ce823a6c2876d2192824b252df83ec') in 0.012627 seconds
+  Import took 0.022887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.916190 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b4e26c2314cc497ae22059239b05b5') in 0.012700 seconds
+  Import took 0.016809 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000707 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1689.
+Total: 1.338600 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.098800 ms  DeleteObjects: 0.059700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.137963 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f7b402b7e60c2d1046e718dce6eaf1') in 0.051445 seconds
+  Import took 0.055425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.016962 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1200db88252d38cf91bf567c76d04cc7') in 0.012110 seconds
+  Import took 0.015400 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 1.406200 ms (FindLiveObjects: 0.142300 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.169500 ms  DeleteObjects: 0.058400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.868846 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92413e51af4e9f6c1ec957992dbebfeb') in 0.052398 seconds
+  Import took 0.055435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.493349 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abbd29c4d5b9f39e89b077d51fbcbd7') in 0.017623 seconds
+  Import took 0.022225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.589916 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4ab01c2aa93acd0c679a846d811a7f') in 0.013176 seconds
+  Import took 0.018416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.467599 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef570bac6eeb8a2e467edd2112785f5') in 0.010886 seconds
+  Import took 0.014411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.414166 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1286b42f96afb020b9aa3f702d803470') in 0.014629 seconds
+  Import took 0.018621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.115428 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e608b9c757be14de0eac0a818a080f') in 0.012462 seconds
+  Import took 0.017772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.039686 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a70cedadc7ebbdde7ea9b18689f258') in 0.012770 seconds
+  Import took 0.017794 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 1.370700 ms (FindLiveObjects: 0.128500 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.151600 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.098314 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce8a3cb03357108d6b77b8473c24f9b') in 0.048681 seconds
+  Import took 0.051780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.422450 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ce3c38897fb8b7a818f2f4a8b27b2f') in 0.015276 seconds
+  Import took 0.019561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.065765 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493f9d6756217a906e49e9592df74e7d') in 0.013528 seconds
+  Import took 0.017777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.824786 seconds.
+  path: Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab
+  artifactKey: Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Basic Tower/Basic Ballistic tower 1.prefab using Guid(8c66bac544149b54a91c09a8ade61ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61bacdcad70ca9a3d83fb89d8ced1f2') in 0.018074 seconds
+  Import took 0.023757 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 1.467500 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.061100 ms MarkObjects: 1.192200 ms  DeleteObjects: 0.064700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.444940 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet
+  artifactKey: Guid(86a4d3d93f6bb7b4db70bd5c55ea5abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet using Guid(86a4d3d93f6bb7b4db70bd5c55ea5abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2a5f0cc69eca51f813aab222d9be57') in 0.003929 seconds
+  Import took 0.006773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.371476 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab
+  artifactKey: Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab using Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e2c2a26ad29c1ec25fcda1641cda1b') in 0.043792 seconds
+  Import took 0.047205 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 1.448300 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.146500 ms  DeleteObjects: 0.053100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1703.
+Total: 1.361400 ms (FindLiveObjects: 0.136500 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.135200 ms  DeleteObjects: 0.054300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.2 MB.
+System memory in use after: 54.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1703.
+Total: 1.419800 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.157600 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.732139 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab
+  artifactKey: Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab using Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fd96d0877bceeb40da55d92d0bf23c') in 0.049117 seconds
+  Import took 0.053374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.612297 seconds.
+  path: Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab
+  artifactKey: Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Ballistic Tower/Bullet/Bullet.prefab using Guid(30ad8f99455c38f4688415f4bc999259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c261bb2faa4ade436b8d90b1717c5c') in 0.010470 seconds
+  Import took 0.013831 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1706.
+Total: 1.653100 ms (FindLiveObjects: 0.138400 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.422700 ms  DeleteObjects: 0.056900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.1 MB.
+System memory in use after: 54.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1706.
+Total: 1.659400 ms (FindLiveObjects: 0.153100 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.403300 ms  DeleteObjects: 0.061300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.628 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.308700 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.090200 ms  DeleteObjects: 0.050100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.2 MB.
+System memory in use after: 54.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.399700 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.122500 ms  DeleteObjects: 0.048200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

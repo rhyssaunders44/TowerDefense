@@ -61,7 +61,7 @@ public class UiManager : MonoBehaviour
             GameOver();
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             if (paused)
             {

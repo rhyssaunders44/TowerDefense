@@ -23,6 +23,8 @@ public class BulletBehaviour : MonoBehaviour
     //physic layer collisions have been ignored between most layers such as the power grid and build layer
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log(collision.gameObject.tag);
+
         if (collision.collider.tag != "Enemy")
         {
             Destroy(this.gameObject);

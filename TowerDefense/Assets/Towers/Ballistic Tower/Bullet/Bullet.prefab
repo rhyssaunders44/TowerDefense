@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletBody: {fileID: -6010419633727984318}
   bulletCollider: {fileID: 4843368591815160483}
-  bulletSpeed: 50
+  bulletSpeed: 45
   sphere: {fileID: 2505996968593948664, guid: 5207e314c2bd4f547b667ddf71b19032, type: 3}
 --- !u!136 &4843368591815160483
 CapsuleCollider:
@@ -128,7 +128,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 1
-  m_Height: 5.5
+  m_Height: 6
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: -1}
 --- !u!1001 &2184184128517744523

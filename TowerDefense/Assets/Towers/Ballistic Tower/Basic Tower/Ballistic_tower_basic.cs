@@ -74,14 +74,13 @@ public class Ballistic_tower_basic : MonoBehaviour
                 powerLight.color = Color.red;
             }
         }
-        
-
-
+ 
         TargetAquisition(0);
 
         //dont bother running the following garbage if there are no potential targets
         if (targetOptions.Count == 0)
             return;
+
 
         //checks if the target is in range
         targetPos = targetOptions[targetID].transform;
@@ -103,13 +102,14 @@ public class Ballistic_tower_basic : MonoBehaviour
             //rotate the rotatableparts based on the above
             TurretBody.transform.Rotate(Vector3.up, yAngle);
             Barrel.transform.Rotate(Vector3.right, xAngle);
-            
-           //if its looking at the target, fire
-           if(Physics.Raycast(BulletSpawner.transform.position, BulletSpawner.transform.forward, out RaycastHit hit, range, mask))
-           {
+
+            //if its looking at the target, fire
+            if (Physics.Raycast(BulletSpawner.transform.position, BulletSpawner.transform.forward, out RaycastHit hit, range, mask))
+            {
+
                 targetAquired = true;
                 Fire(upgradeTeir);
-           }
+            }
         }
     }
 
